@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    
+}
+    
+*{
+    padding: 0%;
+    margin: 0%;   
+}
+.navbar{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background:#e5b2ca 100%;
+
+}
+.navbar-wrapper{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+
+.nav-logo{
+ flex: 4;
+ /* background-color: red; */
+
+ cursor: pointer;
+}
+.nav-logo a{
+    text-decoration: none;
+    color: black;
+}
+.search-input{
+ flex: 5;
+ /* background-color: green; */
+ border: 1px solid grey;
+ display: flex;
+ border-radius: 24px;
+ height: 20px;
+
+}
+.search-input li{
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* margin-left: 50%; */
+}
+.search-input input{
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    
+}
+.search-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.visit-dashboard{
+ flex: 3;
+ /* background-color: blue; */
+ /* border: 1px solid red; */
+ display: flex;
+}
+.visit-dashboard li{
+    list-style: none;
+  /* margin-left: 20px; */
+
+}
+.dashboard-text{
+    margin-left: 220px;
+    /* border: 1px solid black; */
+}
+
+.dashboard-icon{
+    height: 25px;
+    margin-left: 2px;
+    cursor: pointer;
+    
+}
+
+.dashboard-icon img{
+      width: 100%;
+      height: 100%;
+}
+
+.main-div{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid chartreuse; */
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.leftsidebar{
+    /* border: 1px solid black; */
+    height: calc(100vh - 60px);
+    width: 300px;
+}
+.rightsidebar{
+    /* border: 2px solid black; */
+    height: calc(100vh - 60px);
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    overflow-y:scroll;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.rightsidebar>div{
+    /* border: 1px solid violet; */
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #a676f3;
+}
+
+.rightsidebar >div img{
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+    object-fit: cover;
+
+}
+.rightsidebar> div p{
+
+    padding: 5px;
+    font-size: 14px;
+}
+.imagediv{
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+
+
+}
+
+.hover-content{
+    position: relative;
+    z-index: 10;
+    top: -53%;
+    background-color:rgba(43, 41, 41, 0.87);
+    width: 290px;
+    height: 80px;
+    border-radius: 0px 0px 12px 12px;
+    padding-left: 10px;
+    overflow: hidden;
+    display: none;
+    color: white;
+    
+}
+.imagediv:hover .hover-content{
+
+    display: block;
+   
+    transition: 3s;
+
+}
+
+
+.product-page{
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 80px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+
+
+}
+.visit-button{
+
+    /* border: 1px solid green; */
+    margin-left: 100px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+
+}
+
+.apply-filter{
+
+     /* border: 1px solid red; */
+     height: auto;
+     text-align: center;
+     font-weight: bold;
+     padding: 10px;
+
+}
+.sorting-div-year{
+    /* border: 1px solid chartreuse; */
+    height: auto;
+    margin-top: 20px;
+
+}
+.sortingByYear{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+
+select{
+    width: 80%;
+    margin-left:10%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+
+}
+
+.sorting-div-teamsize{
+    margin-top: 10px;
+}
+
+.sortingByfunding{
+    margin-top: 10px;
+}
+.sorting-div-userBase{
+    margin-top: 10px;
+}
+
+.filterByCategory{
+    margin-top: 10px;
+
+}
+.filterByInvestor{
+    margin-top: 10px;
+
+}
+.filterByLocation{
+    margin-top: 10px;
+}
+.filterByMarket{
+    margin-top: 10px;
+
+}
+
+/* .footer{
+
+border: 1px solid black;
+height: 20px;
+width: 95%;
+margin: auto;
+
+
+} */
+
+
+
+@media (min-width:300px) and (max-width:575px){
+
+     .rightsidebar{
+        grid-template-columns: repeat(1,1fr);
+     }
+     .leftsidebar{
+        display: none;
+     }
+}

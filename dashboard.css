@@ -1,0 +1,96 @@
+.dash-main-div{
+
+     border: 1px solid black;
+     height: 100vh;
+     width: 90%;
+     margin: auto;
+     margin-top: 60px;
+    display: flex;
+
+}
+
+.dash-left-div{
+
+    border: 1px solid red;
+    width: 300px;
+
+}
+.company-dashboard{
+    border: 1px solid black;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+
+}
+.total-companies{
+
+    border: 1px solid black;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+}
+
+.investors{
+
+    border: 1px solid black;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+}
+.companies-location{
+    border: 1px solid black;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+}
+
+.markets-cover{
+    border: 1px solid black;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+}
+.categories{
+    border: 1px solid black;
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+}
+.categories:hover{
+
+    box-shadow: 5px 5px;
+
+}
+
+.dash-right-div{
+
+     border: 1px solid chartreuse;
+     width: 100vw;
+}
+
+.top-div{
+    display: flex;
+    /* border: 2px solid red; */
+   height: 50px;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px;
+
+}
+.top-div li{
+    list-style: none;
+    border: 2px solid green;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+  
+  
+
+}
+.foundedByYearDiv{
+    border: 1px solid red;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+}

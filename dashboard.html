@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+<body>
+
+    <div class="navbar">
+                      
+        <div class="navbar-wrapper">
+
+               <div class="nav-logo">
+                   <h1><a href="/index.html">IndianStartups</a></h1>
+               </div>
+                 <div style="border: 0px;" class="search-input">
+                <!-- <li class="search-icon"><img src="/assets/search.png" alt=""></li>
+                 <input type="search"> -->
+                </div>
+                <div class="visit-dashboard">
+                      <li style="margin-top: 3px;" class="dashboard-text">Dashboard</li>
+                      <li  class="dashboard-icon"><a href="/dashboard.html"><img src="/assets/dashboard.png" alt=""></a></li>
+               </div>
+        </div>
+
+    </div>
+
+    <div class="dash-main-div">
+               
+                  <div class="dash-left-div">
+                      <div class="company-dashboard">
+                              Dashboard
+                      </div>
+
+                       <div class="total-companies">
+                          Companies Foundation
+                       </div>
+
+                       <div class="investors">
+                        Investors
+                       </div>
+                       <div class="companies-location">
+                            Location
+                       </div>
+                       <div class="markets-cover">
+                            Market
+                       </div>
+                       <div class="categories">
+                          Category
+                       </div>
+
+
+                  </div>
+
+
+                  <div class="dash-right-div">
+
+                    <div class="top-div">
+                       <li id="TotalCompanies"></li>
+                       <li id="TotalInvestors">Total Investors</li>
+                       <li id="TotalInvestment">Total Investment</li>
+                       <li id="TotalEmployement">Total Employement</li>
+
+                    </div>
+
+                     
+                    <div class="foundedByYearDiv">
+                      <canvas id="foundedByYearChart" role="img" height="300"  width="700"></canvas>
+                    </div>
+                             
+                  </div>
+
+
+                  
+
+    </div>
+    
+
+
+    
+
+
+    <script src="dashboard.js"></script>
+ 
+</body>
+
+
+
+ 
+
+  
+</html>

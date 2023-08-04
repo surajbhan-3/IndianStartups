@@ -6,7 +6,7 @@ const startupData = [
     category: "Education",
     founder: "Parteek Shukla, Nrupul Dev, Yogesh Bhat",
     founded: "2019",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru, Karnataka"],
     website: "https://www.masaischool.com/",
     description: "Masai is an outcome driven career school, Its mission is to skill India's untapped & underutilized talent",
     total_funding: "USD 22 million",
@@ -25,7 +25,7 @@ const startupData = [
     category: "Travel",
     founder: "Ritesh Agarwal",
     founded: "2013",
-    headquarter: "Gurugram, Haryana",
+    headquarter:["Gurugram","Haryana"],
     website: "https://www.oyorooms.com/",
     description:
       "An online hotel booking platform that offers affordable and convenient accommodation options.",
@@ -46,7 +46,7 @@ const startupData = [
     category: "Food delivery",
     founder: "Deepinder Goyal and Pankaj Chaddah",
     founded: "2008",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.zomato.com/",
     description:
       "An online food delivery platform that connects restaurants with customers.",
@@ -65,13 +65,13 @@ const startupData = [
   },
 
   {
-    id: 6,
+    id: 4,
     name: "Razorpay",
     image: "/assets/razorpay.jpeg",
     category: "Payments",
     founder: "Shashank Kumar and Harshil Mathur",
     founded: "2014",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://razorpay.com/",
     description:
       "A payment gateway that allows businesses to accept payments online and offline.",
@@ -85,13 +85,13 @@ const startupData = [
     awards: ["Best Payment Gateway of the Year 2020"],
   },
   {
-    id: 7,
+    id: 5,
     name: "Swiggy",
     image: "/assets/Swiggy_logo.png",
     category: "Food delivery",
     founder: "Sriharsha Majety, Nandan Reddy, and Rahul Jaimini",
     founded: "2014",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter:["Bengaluru", "Karnataka" ],
     website: "https://www.swiggy.com/",
     description:
       "An online food delivery platform that connects restaurants with customers.",
@@ -105,13 +105,13 @@ const startupData = [
     awards: ["Best Food Delivery App of the Year 2020"],
   },
   {
-    id: 8,
+    id: 6,
     name: "Byju's",
     image: "/assets/Byjus-Symbol.png",
     category: "Education",
     founder: "Byju Raveendran",
     founded: "2011",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://byjus.com/",
     description:
       "An online education platform that offers video courses taught by experts in their fields.",
@@ -126,13 +126,13 @@ const startupData = [
   },
 
   {
-    id: 10,
+    id: 7,
     name: "BharatPe",
     image: "/assets/bharat.png",
     category: "Payments",
     founder: "Ashneer Grover and Shashank Sachan",
     founded: "2018",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.bharatpe.com/",
     description:
       "A digital payments platform that allows merchants to accept payments using QR codes.",
@@ -146,13 +146,13 @@ const startupData = [
     awards: ["Best Payment Gateway of the Year 2021"],
   },
   {
-    id: 11,
+    id: 8,
     name: "Urban Company",
     image: "/assets/uc.jpg",
     category: "On-demand services",
     founder: "Ankit Agarwal, Abhiraj Bahl, and Vaibhav Gupta",
     founded: "2014",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.urbancompany.com/",
     description:
       "An on-demand services platform that connects users with service providers for a variety of tasks, such as home cleaning, laundry, and repairs.",
@@ -170,13 +170,13 @@ const startupData = [
     awards: ["Best On-demand Services Platform of the Year 2020"],
   },
   {
-    id: 12,
+    id: 9,
     name: "Cred",
     image: "/assets/cred.png",
     category: "FinTech",
     founder: "Kunal Shah",
     founded: "2018",
-    headquarter: "Mumbai, Maharashtra",
+    headquarter:["Mumbai", "Maharashtra"] ,
     website: "https://www.cred.club/",
     description:
       "A rewards platform that offers cashback and other benefits to users who pay their credit card bills on time.",
@@ -190,13 +190,13 @@ const startupData = [
     awards: ["Best FinTech Platform of the Year 2020"],
   },
   {
-    id: 13,
+    id: 10,
     name: "Udaan",
     image: "/assets/udaan.png",
     category: "B2B marketplace",
     founder: "Amod Malviya, Vaibhav Gupta, and Sujeet Kumar",
     founded: "2016",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.udan.com/",
     description:
       "A B2B marketplace that connects small businesses with suppliers of goods and services.",
@@ -214,13 +214,13 @@ const startupData = [
     awards: ["Best B2B Marketplace of the Year 2020"],
   },
   {
-    id: 14,
+    id: 11,
     name: "Healofy",
     image: "/assets/heal.png",
     category: "Healthcare",
     founder: "Prashant Jain and Sameer Singh",
     founded: "2015",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://www.healofy.com/",
     description:
       "A healthcare platform that connects patients with doctors and other healthcare providers.",
@@ -235,13 +235,13 @@ const startupData = [
   },
 
   {
-    id: 16,
+    id: 12,
     name: "Darwinbox",
     image: "/assets/darwin.jpg",
     category: "Human resources",
     founder: "Punit Parekh and Rohit Tuli",
     founded: "2015",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://darwinbox.com/",
     description:
       "A human resources platform that helps businesses manage their employees' data and workflows.",
@@ -259,13 +259,13 @@ const startupData = [
     awards: ["Best Human Resources Platform of the Year 2020"],
   },
   {
-    id: 17,
+    id: 13,
     name: "PharmEasy",
     image: "/assets/pharmeasy.jpg",
     category: "Healthcare",
     founder: "Dinesh Agarwal and Manish Aggarwal",
     founded: "2015",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://pharmeasy.com/",
     description:
       "An online pharmacy that delivers medicines to customers' doorsteps.",
@@ -279,13 +279,13 @@ const startupData = [
     awards: ["Best Online Pharmacy of the Year 2020"],
   },
   {
-    id: 18,
+    id: 14,
     name: "Apna",
     image: "/assets/apna.png",
     category: "Jobs",
     founder: "Ashish Munjal, Abhinav Gupta, and Varun Dua",
     founded: "2017",
-    headquarter: "Gurugram, Haryana",
+    headquarter:  ["Gurugram", "Haryana"],
     website: "https://www.apna.co/",
     description:
       "A job search platform that connects job seekers with employers.",
@@ -304,13 +304,13 @@ const startupData = [
   },
 
   {
-    id: 19,
+    id: 15,
     name: "Unacademy",
     image: "/assets/un.png",
     category: "Education",
     founder: "Gaurav Munjal, Roman Saini, and Hemesh Singh",
     founded: "2015",
-    headquarter: "Gurugram, Haryana",
+    headquarter:  ["Gurugram", "Haryana"],
     website: "https://unacademy.com/",
     description:
       "An online learning platform that offers courses on a variety of topics, including academics, professional skills, and hobbies.",
@@ -329,13 +329,13 @@ const startupData = [
   },
 
   {
-    id: 20,
+    id: 16,
     name: "Meesho",
     image: "/assets/meesho.png",
     category: "E-commerce",
     founder: "Vidit Aatrey and Sanjeev Barnwal",
     founded: "2015",
-    headquarter: "Gurugram, Haryana",
+    headquarter:  ["Gurugram", "Haryana"],
     website: "https://www.meesho.com/",
     description:
       "An online marketplace that allows individuals to sell products to other individuals.",
@@ -354,13 +354,13 @@ const startupData = [
   },
 
   {
-    id: 21,
+    id: 17,
     name: "Groww",
     image: "/assets/groww.png",
     category: "Finance",
     founder: "Lalit Keswani, Harsh Jain, and Ishan Bansal",
     founded: "2016",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://groww.in/",
     description:
       "An investment platform that allows users to invest in stocks, mutual funds, and other financial products.",
@@ -374,14 +374,14 @@ const startupData = [
     awards: ["Best Investment Platform of the Year 2021"],
   },
   {
-    id: 23,
+    id: 18,
     name: "PolicyBazaar",
     image:
       "/assets/policy.jpg",
     category: "Insurance",
     founder: "Ashish Gupta",
     founded: "2008",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.policybazaar.com/",
     description:
       "An online insurance marketplace that allows users to compare and buy insurance policies.",
@@ -399,14 +399,14 @@ const startupData = [
     awards: ["Best Insurance Marketplace of the Year 2019"],
   },
   {
-    id: 25,
+    id: 19,
     name: "Ola",
     image:
       "/assets/ola.jpeg",
     category: "Transportation",
     founder: "Bhavish Aggarwal and Ankit Bhati",
     founded: "2010",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://www.olacabs.com/",
     description:
       "An online cab hailing service that operates in over 250 cities in India.",
@@ -424,13 +424,13 @@ const startupData = [
     awards: ["Best Cab Hailing Service of the Year 2016"],
   },
   {
-    id: 30,
+    id: 20,
     name: "Paytm",
     image:"/assets/paytm.jpg",
     category: "Fintech",
     founder: "Vijay Shekhar Sharma",
     founded: "2000",
-    headquarter: "Noida, Uttar Pradesh",
+    headquarter: ["Noida", "Uttar Pradesh"],
     website: "https://paytm.com/",
     description:
       "A digital payments and financial services platform that allows users to make payments, transfer money, and invest.",
@@ -444,14 +444,14 @@ const startupData = [
     awards: ["Best FinTech Platform of the Year 2018"],
   },
   {
-    id: 41,
+    id: 21,
     name: "Cure.fit",
     image:
       "/assets/curefit.png",
     category: "Healthcare",
     founder: "Mukesh Bansal and Ankit Nagori",
     founded: "2016",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.cure.fit/",
     description:
       "A health and wellness platform that offers a variety of services, including online yoga and fitness classes, meal plans, and doctor consultations.",
@@ -465,13 +465,13 @@ const startupData = [
     awards: ["Best Healthcare Platform of the Year 2018"],
   },
   {
-    id: 44,
+    id: 22,
     name: "Livspace",
     image:"/assets/livspace.jpg",
     category: "Interior design",
     founder: "Ankiti Bose and Ramakant Sharma",
     founded: "2015",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://www.livspace.com/",
     description:
       "An online interior design platform that connects homeowners with interior designers.",
@@ -490,15 +490,15 @@ const startupData = [
   },
 
   {
-    id: 45,
+    id:23,
     name: "ElasticRun",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/ElasticRun_logo.svg/1200px-ElasticRun_logo.svg.png",
+      "/assets/elastic.jpg",
     category: "E-commerce",
     founder: "Amit Agarwal and Saurabh Nigam",
     founded: "2016",
-    headquarter: "Gurugram, Haryana",
-    website: "https://www.elasticrun.com/",
+    headquarter: ["Gurugram", "Haryana"],
+    website: "https://www.elastic.run.com/",
     description:
       "An e-commerce fulfillment platform that helps retailers fulfill orders to customers.",
     total_funding: "USD 350 million",
@@ -515,14 +515,14 @@ const startupData = [
     awards: ["Best E-commerce Fulfillment Platform of the Year 2021"],
   },
   {
-    id: 47,
+    id: 24,
     name: "Zetwerk",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Zetwerk_logo.svg/1200px-Zetwerk_logo.svg.png",
+      "/assets/Zetwerk.jpg",
     category: "Manufacturing",
     founder: "Srinath Ramasubramanian and Amrit Acharya",
     founded: "2018",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter: ["Bengaluru", "Karnataka"],
     website: "https://www.zetwerk.com/",
     description:
       "An online manufacturing marketplace that connects manufacturers with businesses.",
@@ -540,14 +540,14 @@ const startupData = [
     awards: ["Best Manufacturing Marketplace of the Year 2021"],
   },
   {
-    id: 49,
+    id: 25,
     name: "Pine Labs",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Pine_Labs_logo.svg/1200px-Pine_Labs_logo.svg.png",
+      "/assets/pine.png",
     category: "Payments",
     founder: "Harshvardhan Lunia and Rajul Garg",
     founded: "2011",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.pinelabs.com/",
     description:
       "A payments processing company that provides a variety of payment solutions to businesses.",
@@ -561,14 +561,14 @@ const startupData = [
     awards: ["Best Payments Processing Company of the Year 2021"],
   },
   {
-    id: 55,
+    id: 26,
     name: "UpGrad",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/UpGrad_logo.svg/1200px-UpGrad_logo.svg.png",
+      "/assets/upgrade.png",
     category: "Education",
     founder: "Naresh Gupta and Mayank Kumar",
     founded: "2015",
-    headquarter: "Gurugram, Haryana",
+    headquarter: ["Gurugram", "Haryana"],
     website: "https://www.upgrad.com/",
     description:
       "An online education platform that offers courses in a variety of fields, including technology, business, and management.",
@@ -586,14 +586,13 @@ const startupData = [
     awards: ["Best Education Platform of the Year 2021"],
   },
   {
-    id: 57,
+    id: 27,
     name: "Zee5",
-    image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Zee5_logo.svg/1200px-Zee5_logo.svg.png",
+    image:"/assets/zee5.jpeg",
     category: "OTT",
     founder: "Subhash Chandra",
     founded: "2008",
-    headquarter: "Mumbai, Maharashtra",
+    headquarter: ["Mumbai", "Maharashtra"],
     website: "https://zee5.com/",
     description:
       "An over-the-top (OTT) platform that offers a variety of TV shows, movies, and web series.",
@@ -608,13 +607,13 @@ const startupData = [
   },
 
   {
-    id: 69,
+    id: 28,
     name: "Digit Insurance",
-    image: "https://digitinsurance.com/assets/img/digit_logo.svg",
+    image: "/assets/digit.png",
     category: "Insurance",
     founder: "Kamesh Goyal and Alok Bansal",
     founded: "2017",
-    headquarter: "Bengaluru, Karnataka",
+    headquarter:["Bengaluru", "Karnataka"],
     website: "https://digitinsurance.com/",
     description:
       "A digital-only general insurance company that offers a range of insurance products, including motor, health, travel, and home insurance.",
@@ -632,13 +631,13 @@ const startupData = [
     awards: ["Best Digital Insurance Company of the Year 2020"],
   },
   {
-    "id": 68,
+    "id": 29,
     "name": "InsuranceDekho",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/PolicyBazaar_logo.svg/1200px-PolicyBazaar_logo.svg.png",
+    "image": "/assets/insurance.webp",
     "category": "Insurance",
     "founder": "Amit Jain and Yashish Dahiya",
     "founded": "2008",
-    "headquarter": "Mumbai, Maharashtra",
+    "headquarter": ["Mumbai", "Maharashtra"],
     "website": "https://www.insurancedekho.com/",
     "description": "An online insurance marketplace that helps users compare and buy insurance products from a variety of insurers.",
     "total_funding": "USD 100 million",
@@ -651,13 +650,13 @@ const startupData = [
     "awards": ["Best Insurance Marketplace of the Year 2018"]
   },
   {
-    "id": 70,
+    "id": 30,
     "name": "Turtlemint",
-    "image": "https://turtlemint.com/assets/img/turtlemint_logo.svg",
+    "image": "/assets/Turtlemint-logo.png",
     "category": "Insurance",
     "founder": "Amit Sharma and Prashant Fuloria",
     "founded": "2015",
-    "headquarter": "Bengaluru, Karnataka",
+    "headquarter": ["Bengaluru", "Karnataka"],
     "website": "https://turtlemint.com/",
     "description": "A health insurance startup that offers a range of health insurance products, including individual, family, and group health plans.",
     "total_funding": "USD 100 million",
@@ -670,13 +669,13 @@ const startupData = [
     "awards": ["Best Health Insurance Startup of the Year 2019"]
   },
   {
-    "id": 73,
+    "id": 31,
     "name": "Acko",
-    "image": "https://acko.com/assets/img/acko_logo-430x270.png",
+    "image": "/assets/acko-logo.png",
     "category": "Insurance",
     "founder": "Rohan Agarwal and Varun Dua",
     "founded": "2016",
-    "headquarter": "Gurugram, Haryana",
+    "headquarter": ["Gurugram", "Haryana"],
     "website": "https://acko.com/",
     "description": "A digital-only general insurance company that offers a range of insurance products, including motor, health, travel, and home insurance. Acko also offers a unique pay-as-you-drive insurance plan that allows users to only pay for the insurance they use.",
     "total_funding": "USD 400 million",
@@ -689,13 +688,13 @@ const startupData = [
     "awards": ["Best Digital Insurance Company of the Year 2021"]
   },
   {
-    "id": 72,
+    "id": 32,
     "name": "Coverfox",
-    "image": "https://coverfox.com/static/img/logo@2x.png",
+    "image": "/assets/coverfox_logo.jpg",
     "category": "Insurance",
     "founder": "Vishal Shah and Aditya Gupta",
     "founded": "2012",
-    "headquarter": "Bengaluru, Karnataka",
+    "headquarter": ["Bengaluru", "Karnataka"],
     "website": "https://coverfox.com/",
     "description": "An online insurance marketplace that helps users compare and buy insurance products from a variety of insurers. Coverfox also offers a range of insurance-related services, such as policy management and claims assistance.",
     "total_funding": "USD 300 million",
@@ -708,32 +707,32 @@ const startupData = [
     "awards": ["Best Insurance Marketplace of the Year 2017"]
   },
   {
-    "id": 71,
-    "name": "BimaPeDi",
-    "image": "https://www.bimapedi.com/static/img/logo_black.svg",
-    "category": "Insurance",
-    "founder": "Aditya Sharma and Siddharth Sethi",
-    "founded": "2015",
-    "headquarter": "Gurugram, Haryana",
-    "website": "https://www.bimapedi.com/",
-    "description": "A health insurance startup that offers a range of health insurance products, including individual, family, and group health plans. BimaPeDi also offers a unique telemedicine service that allows users to connect with doctors online.",
-    "total_funding": "USD 50 million",
-    "investors": ["Sequoia Capital", "Accel Partners", "Tiger Global Management"],
-    "team_size": 1000,
-    "achievements": "Received the 2020 Forbes India 30 Under 30 Award",
+    "id": 33,
+    "name": "Flipkart",
+    "image": "/assets/Flipkart-logo.png",
+    "category": "E-commerce",
+    "founder": "Sachin Bansal and Binny Bansal",
+    "founded": "2007",
+    "headquarter": ["Bengaluru", "Karnataka"],
+    "website": "https://www.flipkart.com/",
+    "description": "An e-commerce company that sells a variety of products, including electronics, apparel, and home goods. Flipkart is one of the largest e-commerce companies in India.",
+    "total_funding": "USD 12.7 billion",
+    "investors": ["Walmart", "Tiger Global Management", "Accel"],
+    "team_size": 30000,
+    "achievements": "Received the 2016 Economic Times Startup of the Year Award",
     "market_presence": "India",
-    "revenue_model": "Subscription fees",
-    "user_base": "Over 3 million users",
-    "awards": ["Best Health Insurance Startup of the Year 2020"]
+    "revenue_model": "Commissions from sellers",
+    "user_base": "Over 300 million users",
+    "awards": ["Best E-commerce Company of the Year 2016"]
   },
   {
-    "id": 79,
+    "id": 34,
     "name": "Delhivery",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Delhivery_logo.svg/1200px-Delhivery_logo.svg.png",
+    "image": "/assets/delhivery.png",
     "category": "Logistics",
     "founder": "Sahil Barua",
     "founded": "2011",
-    "headquarter": "Gurugram, Haryana",
+    "headquarter": ["Gurugram", "Haryana"],
     "website": "https://www.delhivery.com/",
     "description": "A logistics company that provides end-to-end delivery services for businesses. Delhivery is one of the largest logistics companies in India.",
     "total_funding": "USD 2 billion",
@@ -746,13 +745,13 @@ const startupData = [
     "awards": ["Best Logistics Company of the Year 2020"]
   },
   {
-    "id": 81,
+    "id": 35,
     "name": "Jio",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Jio_logo.svg/1200px-Jio_logo.svg.png",
+    "image": "/assets/jio.png",
     "category": "Telecom",
     "founder": "Mukesh Ambani",
     "founded": "2016",
-    "headquarter": "Mumbai, Maharashtra",
+    "headquarter": ["Mumbai", "Maharashtra"],
     "website": "https://www.jio.com/",
     "description": "A telecom company that provides 4G LTE services in India. Jio is one of the largest telecom companies in India.",
     "total_funding": "USD 20 billion",
@@ -768,9 +767,6 @@ const startupData = [
 ];
 
 
-for(let i=0; i<=startupData.length-1; i++){
-  console.log(startupData[i].headquarter)
-}
 
 
 
@@ -866,20 +862,17 @@ foundingYear.addEventListener("change", (event) => {
     
      window.location.reload()
   } else if (event.target.value == "latest") {
-    console.log("latest");
     let latestData = startupData.sort((a, b) => {
       return b.founded - a.founded;
     });
     displayData(latestData);
   } else if (event.target.value == "oldest") {
-    console.log("oldest");
 
     let oldestData = startupData.sort((a, b) => {
       return a.founded - b.founded;
     });
     displayData(oldestData);
 
-    console.log(oldestData);
   }
 });
 
@@ -891,13 +884,11 @@ teamsize.addEventListener("change", (event) => {
     
      window.location.reload()
   } else if (event.target.value == "bigteam") {
-    console.log("latest");
     let latestData = startupData.sort((a, b) => {
       return b.team_size - a.team_size;
     });
     displayData(latestData);
   } else if (event.target.value == "smallteam") {
-    console.log("oldest");
 
     let oldestData = startupData.sort((a, b) => {
       return a.team_size - b.team_size;
@@ -910,28 +901,119 @@ teamsize.addEventListener("change", (event) => {
 
 
 
-let funding = document.querySelector("#funding");
-funding.addEventListener("change", (event) => {
-  if (event.target.value == "default") {
-    
-     window.location.reload()
-  } else if (event.target.value == "highfunding") {
-    console.log("latest");
-    let latestData = startupData.sort((a, b) => {
-      return b.total_funding - a.total_funding;
+
+
+// fbc.style.backgroundColor = "green";
+
+let filter__category = document.querySelector("#filter__category");
+
+ filter__category.addEventListener("click",(event)=>{
+      if(event.target.value == "default"){
+         window.location.reload()
+      }else if(event.target.value == "Education" || "Payments" || "Travel" || "Healthcare" || "Education" || "Payments" || "Travel" ||"Food delivery" || "OTT" || "Insurance" ||  "E-commerce" || "Manufacturing" ||  "Interior " ||"Fintech" ||"Transportation" ||"Finance" || "B2B " || "on-demand service" || "Jobs" || "Human"){
+      
+
+        let filterData = startupData.filter((el)=>{
+               return el.category == event.target.value;
+        })
+         displayData(filterData);
+
+      }
+
+ })
+
+
+
+
+let filter__investor = document.querySelector("#filter__investor");
+
+filter__investor.addEventListener("click",(event)=>{
+ 
+     if(event.target.value == "default"){
+        window.location.reload()
+     }else if(event.target.value ==  "Tiger Global Management" || "Accel" ||  "Insight Partners" || "D1 Capital Partners" || "SoftBank Vision Fund" || "IndiaQuotient" ||  "unitus venture india" ||  "omidyar network india" ||"Lightspeed Venture" ||
+   "Goldman Sachs" || "Ant Financial" ||"Warburg Pincus" || "Sequoia Capital" ||  "Temasek Holdings" ||  "ADIA" || "DST Global" || "Google" || "Walmart" || "Facebook"){
+     
+
+       let filterData = startupData.filter((el)=>{
+                
+                 let arr =el.investors;
+                  for(let i=0; i<=arr.length-1; i++){
+                     if(arr[i]==event.target.value){
+                      return  el.investors
+
+                     }
+                  }
+       })
+        displayData(filterData);
+
+     }
+
+})
+
+let filter__location = document.querySelector("#filter__location");
+
+filter__location.addEventListener("click",(event)=>{
+  console.log(event.target.value)
+     if(event.target.value == "default"){
+        // window.location.reload()
+     }else if(event.target.value ==  "Haryana" || "Karnataka" ||  "Maharashtra" || "Uttar Pradesh" || "Delhi"){
+     
+
+       let filterData = startupData.filter((el)=>{
+                
+                   console.log(el.headquarter[1])
+                  if(el.headquarter[1]==event.target.value){
+                    return el.headquarter
+                  }
+       })
+        displayData(filterData);
+
+     }
+
+})
+
+
+let filter__market = document.querySelector("#filter__market");
+
+filter__market.addEventListener("click",(event)=>{
+  console.log(event.target.value)
+     if(event.target.value == "default"){
+        window.location.reload()
+     }else if(event.target.value ==  "Globar" || "India"){
+     
+
+       let filterData = startupData.filter((el)=>{
+                
+                 
+                  if(el.market_presence==event.target.value){
+                    return el.headquarter
+                  }
+       })
+        displayData(filterData);
+
+     }
+
+})
+
+
+
+
+
+  let searchInput =document.getElementById("searchInput");
+
+ 
+  
+  function search() {
+    let query = document.querySelector("#searchInput").value;
+   
+    let newData = startupData.filter(function (el) {
+        return el.name.toLowerCase().includes(query.toLowerCase());
     });
-    displayData(latestData);
-  } else if (event.target.value == "lowfunding") {
-    console.log("oldest");
 
-    let oldestData = startupData.sort((a, b) => {
-      return a.total_funding - b.total_funding;
-    });
-    displayData(oldestData);
-
-    console.log(oldestData);
-  }
-});
+    console.log(newData)
+    displayData(newData);
+}
 
 
-const searchInput = document.getElementById("searchInput");
+

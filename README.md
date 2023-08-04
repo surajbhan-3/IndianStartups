@@ -6,10 +6,6 @@
     Filtering
     
 
-  
-
-
-
 
 ## Home Page
 <img src="https://github.com/surajbhan-3/IndianStartups/blob/main/readmeImages/home.png?raw=true" /> 

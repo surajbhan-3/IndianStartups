@@ -782,54 +782,55 @@ const startupData = [
   }
 
 let rightProductDiv = document.querySelector(".right-product-div");
- rightProductDiv.style.backgroundColor="green"
   function displayData(data) {
    
     data.forEach((el) => {
-      
-       let div = document.createElement("div");
-           div.setAttribute("class","image-div")
+      let div = document.createElement("div");
+           
+       let imagediv = document.createElement("div");
+           imagediv.setAttribute("class","image-div")
 
        let image = document.createElement("img");
            image.setAttribute("src",`${el.image}`)
 
            
        let div1 = document.createElement("div")
-           div.setAttribute("class","details-about-compnay")
+           div1.setAttribute("class","details-about-company")
            
        let name = document.createElement("h2");
-           name.textContent = el.name;
+           name.textContent = `Name : ${el.name}`;
        let desc = document.createElement("p");
-           desc.textContent = el.description;
+           desc.innerHTML = `<b>About </b> :  ${el.description}`;
        let founded = document.createElement("p")
-           founded.textContent = el.founded;
+           founded.innerHTML =`<b>Founded</b> : ${el.founded}` ;
        let founder = document.createElement("p");
-            founder.textContent = el.founder;
+       founder.innerHTML =`<b>Founder</b> : ${el.founder}` ;
        let funding = document.createElement("p")
-           funding.textContent = el.total_funding;
+       funding.innerHTML =`<b>Funding</b> : ${el.funding}` ;
        let investors = document.createElement("p");
-            investors.textContent = el.investors;
+       investors.innerHTML =`<b>Investors</b> : ${el.investors}` ;
        let achievements = document.createElement("p");
-            achievements.textContent= el.achievements;
+       achievements.innerHTML =`<b>Achivements</b> : ${el.achievements}` ;
        let market = document.createElement("p");
-           market.textContent= el.market_presence;
+       market.innerHTML =`<b>Market</b> : ${el.market_presence}` ;
        let category = document.createElement("p");
-            category.textContent = el.category;    
+         category.innerHTML =`<b>Category</b> : ${el.category}` ;
        let revenue= document.createElement("p");
-           revenue.textContent = el.revenue_model
+            revenue.innerHTML =`<b>Revenue Model</b> : ${el.revenue_model}` ;
        let  user = document.createElement("p");
-          user.textContent= el.user_base;
+       user.innerHTML =`<b>User base</b> : ${el.user_base}` ;
        let awards = document.createElement("p");
-            awards.textContent = el.awards;
+       awards.innerHTML =`<b>Awards</b> : ${el.awards}` ;
         let website = document.createElement("a");
              website.setAttribute("href", `${el.website}`)
               website.setAttribute("class", "website-link"); 
-              website.textContent= el.website       
+              website.innerHTML =`<b>Website</b> : ${el.website}` ;
        
 
   
-            div1.append(name)
-           div.append(image,div1,desc,founded,founder,funding,investors,achievements,market,category, revenue,user,awards, website)
+            div1.append(name,desc,founded,founder,funding,investors,achievements,market,category, revenue,user,awards, website)
+             imagediv.append(image)
+            div.append(imagediv,div1)
            rightProductDiv.append(div)
      
       

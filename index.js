@@ -3,7 +3,7 @@ const startupData = [
     id: 1,
     name: "Masai School",
     image: "assets/masai.jpeg",
-    category: "Edtech",
+    category: "Education",
     founder: "Parteek Shukla, Nrupul Dev, Yogesh Bhat",
     founded: "2019",
     headquarter: "Bengaluru, Karnataka",
@@ -933,3 +933,5 @@ funding.addEventListener("change", (event) => {
   }
 });
 
+
+const searchInput = document.getElementById("searchInput");

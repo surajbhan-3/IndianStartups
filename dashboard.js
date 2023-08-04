@@ -1,12 +1,25 @@
 
-console.log("hello")
+
+let  founded_by_year = document.querySelector(".foundedByYearDiv");
+let  number_of_investors = document.querySelector(".number-of-investors");
+let  location_chart = document.querySelector(".location-chart");
+let  market_chart = document.querySelector(".market-chart");
+let   category_chart = document.querySelector(".category-chart");
+
+let  chartheading1 = document.querySelector(".chart-heading1")
+let  chartheading2 = document.querySelector(".chart-heading2")
+let  chartheading3 = document.querySelector(".chart-heading3")
+let  chartheading4 = document.querySelector(".chart-heading4")
+let  chartheading5 = document.querySelector(".chart-heading5")
+
+
 
 const startupData = [
     {
       id: 1,
       name: "Masai School",
       image: "assets/masai.jpeg",
-      category: "Edtech",
+      category: "Education",
       founder: "Parteek Shukla, Nrupul Dev, Yogesh Bhat",
       founded: "2019",
       headquarter: "Bengaluru, Karnataka",
@@ -770,26 +783,29 @@ const startupData = [
     
   ];
 
+
+  for(let i=0; i<=startupData.length-1; i++){
+        // console.log(startupData[i].investors)
+  }
   const obj={}
   for(let i=0; i<=startupData.length-1; i++){
           let el = startupData[i].founded;
-          console.log(el)
+          // console.log(el)
            if(obj[el] == undefined){
             obj[el]=1
            }else[
             obj[el]++
            ]
   }
-  console.log(obj)
 
   let array=[]
 for(let key in obj){
      array.push(obj[key])
 }
-console.log(array)
  
   
-  const ctx = document.getElementById('foundedByYearChart').getContext("2d");
+
+const ctx = document.getElementById('foundedByYearChart').getContext("2d");
 
   new Chart(ctx, {
     type: 'bar',
@@ -807,15 +823,138 @@ console.log(array)
                 beginAtZero: true
                 }
             },
-            layout: {
-                padding: 20
-            },
             responsive:false
     
 }
   });
 
- 
+
+
+
+
+
+  
+
+
+
+  const ct =document.getElementById("numberOfinvestors").getContext("2d");
+
+      new Chart(ct,{
+        type:"pie",
+        data: {
+          labels: ["Tiger Global Management", "Accel", "Insight Partners", "D1 Capital Partners", "SoftBank Vision Fund", "IndiaQuotient", "unitus ventures", "omidyar network india", "Lightspeed Venture Partners", "Goldman Sachs", "Ant Financial", "Warburg Pincus", "Sequoia Capital", "Temasek Holdings", "ADIA", "DST Global"],
+          datasets: [{
+            label: 'Investor Invested in companies',
+            data: [29, 6, 7, 1, 14, 1, 1, 1,  5, 1, 2, 1, 18, 1,  1, 3],
+            borderWidth: 1
+          }],
+          options: {
+            scales: {
+            y: {
+            beginAtZero: true
+            }
+        },
+        responsive:false
+
+}
+        },
+
+      })
+
+ const locationChart = document.getElementById("locationChart").getContext("2d");
+ new Chart(locationChart,{
+  type:"line",
+  data: {
+    labels: ["Haryana", "Karnatka", "Uttar Pradesh" ],
+    datasets: [{
+      label: 'Location',
+      data: [18, 13, 1],
+      borderWidth: 1
+    }],
+    options: {
+      scales: {
+      y: {
+      beginAtZero: true
+      }
+  },
+  responsive:false
+
+}
+  },
+
+})
+
+
+const marketChart = document.getElementById("marketChart").getContext("2d");
+ new Chart(marketChart,{
+  type:"doughnut",
+  data: {
+    labels: ["India", "Global" ],
+    datasets: [{
+      label: 'Market',
+      data: [18, 13,],
+      borderWidth: 1
+    }],
+    options: {
+      scales: {
+      y: {
+      beginAtZero: true
+      }
+  },
+  responsive:false
+
+}
+  },
+
+})
+
+
+  let cg={}
+for(let i=0; i<=startupData.length-1; i++){
+        let el = startupData[i].category;
+          if(cg[el]==undefined){
+             cg[el]=1;
+          }else{
+             cg[el]++;
+          }
+     
+}
+// console.log(cg);
+let categoryLabel=[];
+let categoryData = [];
+
+for(let key in cg){
+  categoryLabel.push(key);
+  categoryData.push(cg[key]);
+    
+}
+// console.log(categoryLabel)
+// console.log(categoryData)
+
+const categoryChart = document.getElementById("categoryChart").getContext("2d");
+ new Chart(categoryChart,{
+  type:"bar",
+  data: {
+    labels: categoryLabel,
+    datasets: [{
+      label: 'Category',
+      data: categoryData,
+      borderWidth: 1
+    }],
+    options: {
+      scales: {
+      y: {
+      beginAtZero: true
+      }
+  },
+  responsive:false
+
+}
+  },
+
+})
+
+
 
 //   * Total number of companies
 
@@ -843,3 +982,98 @@ let tinvest = document.querySelector("#TotalInvestment");
 
 let emp = document.querySelector("#TotalEmployement");
     emp.textContent = `Empoyement ${employment}`   
+
+
+
+
+    const companyDashboard = document.querySelector(".company-dashboard")
+    companyDashboard.addEventListener("click",()=>{
+          
+            window.location.reload()
+            
+    })
+
+
+
+    const totalCompanies = document.querySelector(".total-companies");
+
+     totalCompanies.addEventListener("click",()=>{
+            
+      console.log("totalcompanies")
+                number_of_investors.style.display = "none";
+                market_chart.style.display = "none"
+                location_chart.style.display ="none"
+                category_chart.style.display = "none"
+                founded_by_year.style.display ="block"
+                 
+                chartheading1.style.display="black"
+                chartheading2.style.display="none"
+                chartheading3.style.display="none"
+                chartheading4.style.display="none"
+                chartheading5.style.display="none"
+
+     })
+
+     const investors = document.querySelector(".investors");
+
+     investors.addEventListener("click",()=>{
+      console.log("investore")
+      founded_by_year.style.display = 'none'
+      market_chart.style.display = "none"
+      location_chart.style.display ="none"
+      category_chart.style.display = "none"
+      number_of_investors.style.display = "block";
+                chartheading1.style.display="none"
+                chartheading2.style.display="block"
+                chartheading3.style.display="none"
+                chartheading4.style.display="none"
+                chartheading5.style.display="none"
+     })
+
+     const loc = document.querySelector(".companies-location");
+
+     loc.addEventListener("click",()=>{
+      console.log("location")
+      founded_by_year.style.display = 'none'
+      number_of_investors.style.display = "none";
+      market_chart.style.display = "none"
+      category_chart.style.display = "none"
+      location_chart.style.display = 'block';
+                chartheading1.style.display="none"
+                chartheading2.style.display="none"
+                chartheading3.style.display="block"
+                chartheading4.style.display="none"
+                chartheading5.style.display="none"
+     })
+
+     const mc = document.querySelector(".markets-cover");
+
+     mc.addEventListener("click",()=>{
+      console.log("markeit")
+      founded_by_year.style.display = 'none'
+      number_of_investors.style.display = "none";
+      location_chart.style.display ="none"
+      category_chart.style.display = "none"
+      market_chart.style.display="block";
+                chartheading1.style.display="none"
+                chartheading2.style.display="none"
+                chartheading3.style.display="none"
+                chartheading4.style.display="block"
+                chartheading5.style.display="none"
+     })
+
+     const cat = document.querySelector(".categories");
+
+     cat.addEventListener("click",()=>{
+      console.log("category")
+      founded_by_year.style.display = 'none'
+      number_of_investors.style.display = "none";
+      market_chart.style.display = "none"
+      location_chart.style.display ="none"
+      category_chart.style.display = "block";
+      chartheading1.style.display="none"
+                chartheading2.style.display="none"
+                chartheading3.style.display="none"
+                chartheading4.style.display="none"
+                chartheading5.style.display="block"
+     })

@@ -1,6 +1,6 @@
 .product-main{
 
-     border: 1px solid black;
+     /* border: 1px solid black; */
      height: 100vh;
      width: 90%;
      margin: auto;
@@ -11,30 +11,57 @@
 }
 .left-product-div{
 
-    border: 2px solid red;
-    height:100vh;
-    width: 300px;
+    /* border: 2px solid red; */
+    /* height:100vh; */
+    /* width: 300px; */
 
 }
 
 .right-product-div{
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100vw;
+    height: auto;
 
 }
 
 .company-name{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 .company-banner{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100px;
     
 }
 .company-banner img{
     width: 100%;
     height: 100%;
+}
+
+.image-div{
+    /* border: 2px solid green; */
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.details-about-company{
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+    padding: 20px;  
+    margin-top: 20px;
+}
+.details-about-company p,a{
+    margin-left: 50px;
+    margin-top: 10px;
 }
